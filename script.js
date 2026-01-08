@@ -65,7 +65,7 @@
             btn.style.display = "none";
         });
 
-        const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDmqxXG4poiWNfntfV7s_G97lzO0GQnkJ0";
+        const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDmqxXG4poiWNfntfV7s_G97lzO0GQnkJ0";
 
         async function generateGeminiResponse(prompt) {
             let RequestOption = {
@@ -139,3 +139,4 @@
             }
 
         }
+
